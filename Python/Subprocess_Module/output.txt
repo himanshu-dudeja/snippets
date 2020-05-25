@@ -1,0 +1,3 @@
+total 4
+-rw-rw-r-- 1 himanshu himanshu 635 May 25 15:17 basic_subprocess.py
+-rw-rw-r-- 1 himanshu himanshu   0 May 25 15:17 output.txt
