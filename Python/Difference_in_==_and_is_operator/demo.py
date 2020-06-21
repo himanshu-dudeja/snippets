@@ -1,7 +1,7 @@
 # Difference b/w == and is operator?
 
 # "==" checks for equality
-# "is" checks for identity
+# "is" checks for identity ==> is checks (id(value1) == id(value2))
 
 def check_1():
     l1 = [1, 2, 3, 4]
