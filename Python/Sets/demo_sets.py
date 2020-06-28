@@ -85,8 +85,12 @@ def practical_examples():
     results = set(employees).difference(developers, gym_members)
     print(results)
 
-
+    # Sets have good performence in membership tests
+    # O(n) for a list
+    # O(1) for a set
+    if 'Corey' in developers:
+        print("FOUND!")
 
 # basic_of_sets()
 # useful_operations_with_sets()
-practical_examples()
+# practical_examples()
