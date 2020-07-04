@@ -1,0 +1,42 @@
+
+# Link -> https://www.tutorialspoint.com/str-vs-repr-in-python
+# Link -> https://www.geeksforgeeks.org/str-vs-repr-in-python/
+# Link -> https://stackoverflow.com/questions/1436703/difference-between-str-and-repr
+
+# The goal of __repr__ is to be unambiguous
+# The goal of __str__ is to be readable
+
+# Below o/p is from Idle
+
+>> > str(123)
+'123'
+>> > repr(123)
+'123'
+>> >
+>> > str('Python')
+'Python'
+>> > repr('Python')
+"'Python'"
+>> >
+>> > x = "Python"
+>> > repr(x)
+"'Python'"
+>> > eval(repr(x))
+'Python'
+>> >
+>> > y = "Python"
+>> > str(y)
+'Python'
+>> > eval(str(y))
+Traceback(most recent call last):
+    File "<pyshell#17>", line 1, in <module >
+        eval(str(y))
+    File "<string>", line 1, in <module >
+NameError: name 'Python' is not defined
+>> >
+>> > import datetime
+>> > now = datetime.datetime.now()
+>> > str(now)
+'2020-06-29 08:12:59.524642'
+>> > repr(now)
+'datetime.datetime(2020, 6, 29, 8, 12, 59, 524642)'
