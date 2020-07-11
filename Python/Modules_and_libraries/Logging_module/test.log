@@ -1,0 +1,8 @@
+INFO:root:Started Logging
+WARNING:root:Started Logging
+ERROR:root:Started Logging
+CRITICAL:root:Started Logging
+[2020-07-11 16:44:27,900]::[basic_logging.py]::[<module>]::[Started Logging]
+[2020-07-11 16:44:27,900]::[basic_logging.py]::[<module>]::[Started Logging]
+[2020-07-11 16:44:27,900]::[basic_logging.py]::[<module>]::[Started Logging]
+[2020-07-11 16:44:27,900]::[basic_logging.py]::[<module>]::[Started Logging]
