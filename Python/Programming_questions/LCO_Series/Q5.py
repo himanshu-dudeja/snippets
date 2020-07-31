@@ -14,7 +14,8 @@ def bubble_sort(mylist):
         print(mylist)
         if flag == 0:
             break
-    print(mylist)
+    return mylist
 
 
-bubble_sort([66, 57, 54, 53, 64, 52, 59])
+op = bubble_sort([66, 57, 54, 53, 64, 52, 59])
+print("Best score is - ", op[0])
