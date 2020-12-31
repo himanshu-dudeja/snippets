@@ -11,7 +11,7 @@ def reverse_way2(string):
 
 def reverse_way3(string):
     str1 = ""
-    for i in range(len(string) -1, -1, -1):
+    for i in range(len(string)-1, -1, -1):
         str1 = str1 + string[i]
     return str1
 
